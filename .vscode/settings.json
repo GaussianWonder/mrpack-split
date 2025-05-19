@@ -1,0 +1,35 @@
+{
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "files.exclude": {
+    "**/*.tsbuildinfo": true,
+    "**/.git": true,
+  },
+  "search.exclude": {
+    "bin-dumps": true,
+    "**/node_modules": true,
+    "**/*.tsbuildinfo": true,
+    "**/*.code-search": true
+  },
+  "editor.formatOnType": false,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "files.autoSave": "onFocusChange",
+  "editor.codeActionsOnSave": {
+    "quickfix.biome": "explicit",
+    "source.organizeImports.biome": "always",
+    "source.fixAll.biome": "explicit"
+  },
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace",
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+}

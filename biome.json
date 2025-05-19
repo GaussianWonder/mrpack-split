@@ -1,0 +1,108 @@
+{
+  "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
+  "organizeImports": {
+    "enabled": true
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true,
+      "complexity": {
+        "recommended": true,
+        "noExtraBooleanCast": "warn",
+        "noStaticOnlyClass": "off",
+        "noThisInStatic": "error",
+        "noUselessCatch": "error",
+        "noUselessSwitchCase": "warn",
+        "noUselessTernary": "warn",
+        "useArrowFunction": "error",
+        "useLiteralKeys": "warn",
+        "useSimplifiedLogicExpression": "warn"
+      },
+      "correctness": {
+        "recommended": true,
+        "noNodejsModules": "off",
+        "useIsNan": "error",
+        "useYield": "error"
+      },
+      "performance": {
+        "recommended": true,
+        "noAccumulatingSpread": "error"
+      },
+      "style": {
+        "recommended": true,
+        "noDefaultExport": "off",
+        "noNegationElse": "error",
+        "noNonNullAssertion": "warn",
+        "noShoutyConstants": "error",
+        "noUnusedTemplateLiteral": "error",
+        "noVar": "error",
+        "noUselessElse": "error",
+        "useConsistentArrayType": "error",
+        "useConst": "error",
+        "useExportType": "error",
+        "useFilenamingConvention": "error",
+        "useImportType": "error",
+        "useNamingConvention": "off",
+        "useNodejsImportProtocol": "error",
+        "useNumberNamespace": "error",
+        "useShorthandArrayType": "error",
+        "useShorthandAssign": "error",
+        "useShorthandFunctionType": "error"
+      },
+      "suspicious": {
+        "recommended": true,
+        "noCatchAssign": "error",
+        "noDoubleEquals": "error",
+        "noExplicitAny": "off",
+        "noConfusingVoidType": "off",
+        "noFallthroughSwitchClause": "off",
+        "noGlobalIsFinite": "error",
+        "useAwait": "warn",
+        "useIsArray": "error",
+        "useDefaultSwitchClauseLast": "error"
+      },
+      "nursery": {
+        "recommended": true,
+        "noSubstr": "error",
+        "useDeprecatedReason": "error"
+      }
+    }
+  },
+  "formatter": {
+    "enabled": true,
+    "lineEnding": "lf",
+    "indentStyle": "space",
+    "lineWidth": 100
+  },
+  "javascript": {
+    "formatter": {
+      "enabled": true,
+      "trailingCommas": "all",
+      "semicolons": "always",
+      "quoteStyle": "double",
+      "bracketSpacing": true,
+      "arrowParentheses": "asNeeded"
+    },
+    "linter": {
+      "enabled": true
+    }
+  },
+  "json": {
+    "formatter": {
+      "enabled": true,
+      "trailingCommas": "none"
+    },
+    "linter": {
+      "enabled": true
+    },
+    "parser": {
+      "allowComments": true
+    }
+  },
+  "vcs": {
+    "enabled": true,
+    "clientKind": "git",
+    "useIgnoreFile": true
+  }
+}
