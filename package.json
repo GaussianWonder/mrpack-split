@@ -3,12 +3,10 @@
   "version": "0.0.1",
   "description": "Split modrinth modpack into client and server packs",
   "scripts": {
-    "start": "tsx src/index.ts"
+    "start": "tsx src/index.ts",
+    "build": "esbuild src/index.ts --bundle --platform=node --minify --outfile=dist/index.js"
   },
-  "keywords": [
-    "modrinth",
-    "minecraft"
-  ],
+  "keywords": ["modrinth", "minecraft"],
   "author": {
     "name": "Teodor Virghileanu",
     "email": "teo.virghi@gmail.com",
@@ -19,6 +17,7 @@
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "@types/node": "^22.15.19",
+    "esbuild": "^0.25.5",
     "tsx": "^4.19.4",
     "typescript": "^5.8.3"
   },
