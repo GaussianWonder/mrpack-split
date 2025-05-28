@@ -8,6 +8,7 @@
     "rules": {
       "recommended": true,
       "complexity": {
+        "noForEach": "off",
         "recommended": true,
         "noExtraBooleanCast": "warn",
         "noStaticOnlyClass": "off",
